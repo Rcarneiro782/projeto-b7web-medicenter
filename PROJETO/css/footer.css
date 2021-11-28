@@ -1,0 +1,158 @@
+footer{
+  
+    background-color: #1e1e1e;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    
+    
+  }
+  .footer-menu{
+  display: flex;
+  
+  }
+  
+  .fm-1, .fm-2, .fm-3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+    justify-content: center;
+ }
+  
+  
+  .fm-1{
+    background-color: #39aae1;
+    
+  }
+  .fm-2{
+    background-color: #0079c7;
+  }
+  .fm-3{
+    background-color: #2b4c99;
+  }
+  .fm-title{
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+  .fm-link {
+    font-size: 12px;
+  }
+.footer-menu  .fm-1 .fm-2 .fm-3{
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  padding: 20px;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.social{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+.social-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color:#212121;
+  margin: 2px;
+  
+  
+}
+.social-icon{
+  width:20px ;
+  
+  /*position: absolute;
+  left: 30px;*/
+  
+}
+ .footer-area{
+   display: flex;
+  justify-content: space-between;
+   
+   
+  }
+  .footer-areaitem{
+   flex: 1;
+  
+  }
+  .dentro-title{
+  margin-top: 30px;
+  margin-bottom: 20px;  
+  }
+  .dentro-text{
+    color: #FFF;
+    font-size: 21px;
+    font-weight: bold;
+   
+  }
+  .dentro-bar{
+    width: 50px;
+    height: 3px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+  }
+  .footer-copy{
+    border-top: 1px solid  #2c2c2c ;
+    height: 40px;
+    line-height:40px ;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left:-530px;
+    display: flex;
+    
+    
+    
+  }
+  .dentro-info p{
+    padding-right: 40px;
+
+  }
+  .dentro-info{
+    font-size: 12px;
+    color: #5c5c5c;
+    margin-top: 30px;
+    padding-right: 50px;
+    
+  }
+  .media-social{
+    margin-left: 20px;
+  }
+  .dentro-contact{
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #5c5c5c;
+  margin-top:10px;
+  margin-bottom: 40px;
+  height: 80px;
+  width:90px ;
+  
+  }
+  .dentro-post {
+    color: #5c5c5c;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-right: 10px;
+    line-height: 20px;
+    }
+  .dentro-post a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+  }
+    
+  .dentro-on {
+    color: #36a9e1;
+    font-size: 11px;  }
+    .post-on{
+      color: #36a9e1;
+    }
